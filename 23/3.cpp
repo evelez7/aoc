@@ -40,8 +40,6 @@ int construct_num(int i, int j) {
   for (int x = start; x < end + 1; ++x) {
     num.push_back(current_line.at(x));
   }
-  if (num.length() == 0)
-    std::cout << "num length is 0\n";
   nums.push_back(std::stoi(num));
 
   std::string new_line = current_line;
